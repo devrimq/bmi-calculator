@@ -11,13 +11,9 @@ export default function Header() {
 			<h1 className='text-3xl font-bold text-gray-800'>
 				Vücut Kitle İndeksi Hesaplayıcı
 			</h1>
-			<p className='text-sm text-gray-500 mt-1'>
-				<span className='italic'>İletişim</span>{" "}
-				<a
-					href='mailto:devrimq@gmail.com'
-					className='underline text-blue-500 hover:text-blue-600 transition'>
-					Devrim Sarıkaya
-				</a>
+			<p className='text-sm text-gray-500 mt-1 italic tracking-wide'>
+				<span className='text-blue-500'>Sağlıklı yaşama</span> doğru ilk
+				adımınızı atın 🧘‍♂️
 			</p>
 		</motion.div>
 	);
